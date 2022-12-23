@@ -143,5 +143,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@aloctavodia](https://github.com/aloctavodia/)
 * [@maresb](https://github.com/maresb/)
+* [@ricardoV94](https://github.com/ricardoV94/)
 
