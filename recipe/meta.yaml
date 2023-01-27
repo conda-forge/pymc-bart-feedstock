@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - pymc >=4.0.1
+    - pymc >=5.0.0
     - arviz
     - numba
     - matplotlib-base <=3.5.2
