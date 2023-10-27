@@ -23,7 +23,8 @@ requirements:
     - pymc >=5.0.0
     - arviz
     - numba
-    - matplotlib-base <=3.5.2
+    - matplotlib-base
+    - numpy <1.25.0
 
 test:
   imports:
