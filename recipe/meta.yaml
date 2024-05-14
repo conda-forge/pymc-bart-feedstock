@@ -20,11 +20,11 @@ requirements:
     - pip
   run:
     - python >=3.8
-    - pymc >=5.0.0
-    - arviz
+    - pymc ==5.15.0
+    - arviz >=0.18.0
     - numba
     - matplotlib-base
-    - numpy <1.25.0
+    - numpy
 
 test:
   imports:
