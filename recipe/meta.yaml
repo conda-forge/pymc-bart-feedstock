@@ -1,5 +1,5 @@
 {% set name = "pymc-bart" %}
-{% set version = "0.5.14" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pymc_bart-{{ version }}.tar.gz
-  sha256: 74d585d8c00812d40578e89c643f8f9b104e60eeb94748464a8ebcd21208c6b7
+  sha256: fe69602e99457072b8e65dc4b31a70beef1b4d9f245d65cbb794d0cf362f24f2
 
 build:
   noarch: python
