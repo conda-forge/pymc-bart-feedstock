@@ -1,5 +1,5 @@
 {% set name = "pymc-bart" %}
-{% set version = "0.7.1" %}
+{% set version = "0.8.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pymc_bart-{{ version }}.tar.gz
-  sha256: dd766e5fb02c7e6cd6f9eedf8d779f785435d9c53a3b2f7e62c9d9a93017996a
+  sha256: 69e3f29ab38488a0e002e454e5020fad85cc63633026271f0f06eab25ae8cb36
 
 build:
   noarch: python
@@ -18,10 +18,11 @@ build:
 requirements:
   host:
     - python {{ python_min }}
+    - setuptools
     - pip
   run:
     - python >={{ python_min }}
-    - pymc >=5.16.2,<=5.18
+    - pymc >=5.16.2,<=5.19.1
     - arviz >=0.18.0
     - numba
     - matplotlib-base
