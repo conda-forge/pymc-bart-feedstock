@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - pymc >=5.16.2,<=5.19.1
+    - pymc >=5.16.2,<=5.20.1
     - arviz >=0.18.0
     - numba
     - matplotlib-base
