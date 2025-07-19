@@ -22,8 +22,8 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - pymc >=5.16.2,<=5.23.0
-    - arviz >=0.18.0
+    - pymc >=5.24.0
+    - arviz-stats[xarray]>=0.6.0
     - numba
     - matplotlib-base
     - numpy
