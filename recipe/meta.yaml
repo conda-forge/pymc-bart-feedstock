@@ -26,8 +26,7 @@ requirements:
     - arviz-stats >=0.6.0
     - numba
     - matplotlib-base
-    - numpy
-    - xarray
+    - numpy >=2.0
 
 test:
   imports:
